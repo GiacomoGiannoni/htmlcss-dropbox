@@ -40,22 +40,29 @@ header .header-body{
     background-color: blue;
     width: 100%;
     height: 900px;
-    position: relative;
+}
+
+.container-big{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 header .nav-hd{
     display: flex;
-    margin: auto;
-    margin-top: 35%;
+
     max-width: 80%;
     height: 500px;
     background-color: violet;
     justify-content: space-around;
 }
 
-.titolo{
-    display: inline-block;
-    color: black;
+.header-body .titolo{
+    display: flex;
+    max-width: 80%;
+    margin-bottom: 10px;
 }
 
 header .nav-hd .text{
